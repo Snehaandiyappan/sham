@@ -7,7 +7,7 @@ class Ideone
      int a=in.nextInt();
      int b=in.nextInt();
      int count=0,num;
-     for(int i=a;i<=b;i++){
+     for(int i=a;i<b;i++){
     	 for(num=2;num<=a;num++){
     		 if(i%num==0){
     			 count=0;
