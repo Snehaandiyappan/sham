@@ -8,7 +8,7 @@ class Ideone
      int b=in.nextInt();
      int count=0,num;
      for(int i=a;i<b;i++){
-    	 for(num=2;num<=a;num++){
+    	 for(num=2;num<i;num++){
     		 if(i%num==0){
     			 count=0;
     			 break;
